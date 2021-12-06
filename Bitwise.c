@@ -14,7 +14,7 @@ main(){
 	c = a & b;	printf(format1,a," & ",b,c);
 	c = a | b;	printf(format1,a," | ",b,c);
 	c = a ^ b;	printf(format1,a," ^ ",b,c);
-	c = ~a;		printf(format2,´~´,a,c);
-	c = -a;		printf(format2,´-´,a,c);
+	c = ~a;		printf(format2,Â´~Â´,a,c);
+	c = -a;		printf(format2,Â´-Â´,a,c);
 
 }
