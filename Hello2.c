@@ -7,7 +7,7 @@ main(){
 	len = 0;
 	puts("Type in a sentence, then press <Enter>");
 
-	while(getchar() != ´\n´)
+	while(getchar() != Â´\nÂ´)
 		len++;
 	printf("\nYour sentence was %d characters long\n",len);
 
