@@ -14,6 +14,6 @@ main(){
 			ratio = a/b;
 			printf("The ratio is %f \n",ratio);
 		}
-		printf("Press ´q´ to quit, any other key to continue");
-	}while(getch() != ´q´);
+		printf("Press Â´qÂ´ to quit, any other key to continue");
+	}while(getch() != Â´qÂ´);
 }
