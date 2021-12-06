@@ -701,5 +701,77 @@ ________________________________________________________________________________
 								to 255 for unsigned type).
 __________________________________________________________________________________________________________________
 	
+			6/12/21						
+			___________________________________________________________________________________
+
+			Evaluate 		Result
+					
+			___________________________________________________________________________________
+
+			list			{ 0, 10, 20, 30, 40}
+			list[2],3		20, 30, 40
+			list[2],3x		0x14, 0x1E, 0x28
+			list,m			00 00 0A 00 00 14 00 1E 00 28 00
+			ptr			DS:0198
+			ptr,p			DS:0198 [_list]
+			*ptr,3			0, 10, 20
+			client			[ 5000, "Nxumalo\0\0\0\0\0"}
+			client,r		{ account:5000, name:"Nxumalo\0\0\0\0\0" }
+			___________________________________________________________________________________
+
+
+		Fixing the Bug
+
+			To fix the bug, all you need to do is change the & to &&.
 			
+			Run/Run
+
+		What You've Accomplished.
+
+			You have cancelled your first debugging  session with Run/Program Reset
+			or it's hot key, Ctrl-F2.
+
+		More about Breakpoints	
+			
+			· leave the integrated enviroment
+			· delete the lines they are set on in the source file
+			· clear them all by choosing Break/Watch/Clear All Breakpoints
+
+			However C will lose track of its breakpoints in two cases:
+
+			· If you edit a file that contains breakpoints, then abandon(fail to save) the
+			  edited version of the file
+
+			· If you edit a file and then continue the current debugging session, or start a new 
+			  session without recompiling and relinking.
+
+		Editing and Deleting Watch Expressions
+
+			Home, End, Up Arrow and Down Arrow Keys
+
+			Break/Watch/Edit Watch (or press Enter)
+
+			Watch/Delete Watch
+			
+			Press F6 to activate Edit Window
+
+			Break/Watch/Remove All Watches
+
+			Press F6 to reactivate Edit Window
+
+		Zooming and Switching Windows
+
+			· When the Edit window is active, the fiel loaded just before the current file is reloaded.
+
+			· If the Watch Window or Message Window is active, pressing Alt-F6 toggles between the 
+			  Watch editor and the Message tracking window.
+
+		Finding the Definition of a Function
+
+			Debug/Find Function
+
+			Debug/Source Debugging and O/C/C/OBJ Debug Information toggles set to On.
+	
+			Debug/Find Function
+	
 					
