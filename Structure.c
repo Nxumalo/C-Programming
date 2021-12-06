@@ -8,6 +8,6 @@ struct{
 	char *ptr = list;
 
 void main(){
-
-
+	
+	
 }
