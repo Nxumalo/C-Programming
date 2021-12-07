@@ -14,5 +14,4 @@ main(){
 		printf("%4d ", list[i]);
 	printf("\n");
 	
-	
 }
