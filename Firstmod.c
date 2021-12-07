@@ -17,7 +17,6 @@ static void localfunc(void){
 	printf("End of the road\n");
 
 }
-
 void myfunc(void){
 	
 	int c = 5;
