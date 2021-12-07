@@ -1,5 +1,4 @@
 main(){
-	
 	#define VSIZE 22
 	int i, vector[VSIZE];
 	
