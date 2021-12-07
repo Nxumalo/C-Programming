@@ -18,6 +18,6 @@ main(){
 	for(i = 0; i<NUMINTS; i++)
 		printf("%4d ",*(list+i));
 	
-	printf("\n");
+	printf("\n"); 
 	
 }
