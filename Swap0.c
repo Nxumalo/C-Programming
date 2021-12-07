@@ -12,4 +12,4 @@ main(){
 	temp = *a; *a = *b; *b = temp;
 	printf("after: i = %4d j = %4d\n",i,j);
 	
-}
+} 
