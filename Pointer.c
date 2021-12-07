@@ -1,6 +1,5 @@
 main(){
 	int ivar,*iptr;
-	
 	iptr = &ivar;
 	ivar = 421;
 	printf("location of ivar: %p\n",&ivar);
