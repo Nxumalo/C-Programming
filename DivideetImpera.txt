@@ -368,26 +368,26 @@
 
 			tcc -IB:\include -LB:\lib -etest start.c body.obj end
  
-			· The include directory is B:\INCLUDE 				(-IB:\include)
-			· The libraries are in the B:\LIB directory 			(-LB:\lib)
-			· The executable result should be placed in a file called 	TEST.EXE(-etest)
+			Â· The include directory is B:\INCLUDE 				(-IB:\include)
+			Â· The libraries are in the B:\LIB directory 			(-LB:\lib)
+			Â· The executable result should be placed in a file called 	TEST.EXE(-etest)
 
-			· A source file called START.C to be compiled
-			· An object file called BODY.OBJ to be included at link time
-			· Another source file called END.C to be compiled
+			Â· A source file called START.C to be compiled
+			Â· An object file called BODY.OBJ to be included at link time
+			Â· Another source file called END.C to be compiled
 
 			tcc -IB:\include -LB:\lib2 -mm -C -K s1 s2.c z.asm mylib.lib
 
-			· The include directory is B:\INCLUDE 		(-IB:\include)
-			· The libraries are in the B:\LIB2 directory 	(-LB:\lib2)
-			· Use the Medium memory model 			(-mm)
-			· Allow nested comments				(-C)
-			· Make chars unsigned				(-K)
+			Â· The include directory is B:\INCLUDE 		(-IB:\include)
+			Â· The libraries are in the B:\LIB2 directory 	(-LB:\lib2)
+			Â· Use the Medium memory model 			(-mm)
+			Â· Allow nested comments				(-C)
+			Â· Make chars unsigned				(-K)
 			
-			· The source files called S1.C and S2.C are to be compiled
-			· The file Z.ASM to be assembled 		(Using TASM)
-			· The executable file will be named S1.EXE
-			· The library file MYLIB.LIB is to be linked in at link time.
+			Â· The source files called S1.C and S2.C are to be compiled
+			Â· The file Z.ASM to be assembled 		(Using TASM)
+			Â· The executable file will be named S1.EXE
+			Â· The library file MYLIB.LIB is to be linked in at link time.
 
 		The TURBOC.CFG File
 
@@ -425,13 +425,13 @@
 
 		rptr-> imagep[nptr+0x80]
 
-		· display the value of a variable or expression
-		· set up a list of expressions in a special window and observe how their values changes.
-		· change the value of a variable
-		· clear existing breakpoints or set new ones
-		· run the program one line at a point
-		· edit files, recompile and relink the program, or use any other feature of C menu system.
-		· make the program continue running until it encounters another breakpoint.
+		Â· display the value of a variable or expression
+		Â· set up a list of expressions in a special window and observe how their values changes.
+		Â· change the value of a variable
+		Â· clear existing breakpoints or set new ones
+		Â· run the program one line at a point
+		Â· edit files, recompile and relink the program, or use any other feature of C menu system.
+		Â· make the program continue running until it encounters another breakpoint.
 
 
 
@@ -544,25 +544,25 @@
 		What You've Accomplished
 
 		
-			· ensured that the Debug/Source Debugging and 0/C/C/OBJ Debug
+			Â· ensured that the Debug/Source Debugging and 0/C/C/OBJ Debug
 			  information toggles are set to On
 
-			· selected Compile/Build All to prepare WORDCNT for debugging
+			Â· selected Compile/Build All to prepare WORDCNT for debugging
 
-			· Used editor comands to move the cursor to the suspcious part
+			Â· Used editor comands to move the cursor to the suspcious part
 			  of WORDCNT; selected Break/Watch/Toggle Breakpoint to set a 
 			  breakpoint there; selected Run/Run to Run WORDCNT up to the 
 			  breakpoint
 
-			· Used Run/User Screen or its hot key Alt-F5 to inspect your 
+			Â· Used Run/User Screen or its hot key Alt-F5 to inspect your 
 			  program output on the User Screen.
 
-			· Selected Run/Step Over to run the statements in main, one line
+			Â· Selected Run/Step Over to run the statements in main, one line
 			  at a time.
 
-			· Selected Debug/Evaluate to display the values of several variables
+			Â· Selected Debug/Evaluate to display the values of several variables
 
-			· thought about the bug you found, and concluded that it explains
+			Â· thought about the bug you found, and concluded that it explains
 			  WORDCNT's observed misbehavior and so warrants immediate correction
 
 
@@ -572,28 +572,28 @@
 
 		Changing the Value if an Evaluated Expression
 
-			· function calls
+			Â· function calls
 
-			· defined or type-defined symbols or macros (*wordptr == 0x20 is OK;
+			Â· defined or type-defined symbols or macros (*wordptr == 0x20 is OK;
 			  *wordptr == SPACE is not OK, since SPACE is defined)
 
-			· local or static variables not in the scope of the function being
+			Â· local or static variables not in the scope of the function being
 			  executed, unless they are fully qualified.
 
 
 		Qualifying Variable Name
 
-			· To examine static variables in another module, use:
+			Â· To examine static variables in another module, use:
 			
-			· .<module name>.<variable name>
+			Â· .<module name>.<variable name>
 
-			· To examine local variables in a global function, use:
+			Â· To examine local variables in a global function, use:
 		
-			· .<function name>.<variable name>
+			Â· .<function name>.<variable name>
 
-			· To examine local variables in a static function, use:
+			Â· To examine local variables in a static function, use:
 
-			· .<module name>.<function name>.<variable name>
+			Â· .<module name>.<function name>.<variable name>
 
 			To watch the local variable b in function main use:
 
@@ -701,35 +701,5 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________
 	
 			
-					
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+				
 			
