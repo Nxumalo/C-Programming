@@ -1,7 +1,6 @@
 int lmin(int list[], int size){
 	
 	int i, minindx, min;
-	
 	minindx = 0;
 	min = list[minindx];
 	
