@@ -1,11 +1,14 @@
-#include <stdio.h>
-
 main(){
-
-	char first[30], middle[30], last[30];
-
-	printf("What is your name: ");
-	scanf("%s %s %s",first,middle,last);
-	printf("Hello,Dr. %s, or should I say %s?\n",last,first);
-
+	
+	char *name;
+	char msg[10];
+	
+	name = (char *) malloc(10);
+	printf("What is your name? ");
+	scanf("%s",name);
+	
+	msg = "Hello, ";
+	strcpy(msg,"Hello, ");
+	printf("%s%s", msg,name);
+	
 }
