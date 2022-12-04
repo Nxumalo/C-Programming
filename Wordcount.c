@@ -1,5 +1,6 @@
 /*****
-*	Read a text file; count the number of words of length 1,2,3, etc.
+*	Read a text file; 
+*       count the number of words of length 1,2,3, etc.
 *****/
 
 #include <stdio.h>
