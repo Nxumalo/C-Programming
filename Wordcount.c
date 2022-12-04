@@ -12,9 +12,11 @@
 
 /*****
 *	Find the next word in the line buffer.
-*	IN:	wordptr points to the first character of a word or preceding space.
-*	RETURN:		A pointer to the first character of the word. If there are
-			no more words, a pointer to the terminating NUL.
+*	IN:	wordptr points to the first character of a word 
+*       or preceding space.
+*	RETURN:		A pointer to the first character of the word.
+*                       If there are no more words, 
+*                       a pointer to the terminating NUL.
 *****/
 
 char *nextword(char *wordptr)
@@ -28,7 +30,8 @@ char *nextword(char *wordptr)
 }
 
 /*****
-*	Find the length of a word. A word is defined as a sequence of characters
+*	Find the length of a word. 
+*       A word is defined as a sequence of characters
 * 	terminated by a space or a NUL.
 *	IN:	wordptr points to a word.
 *	RETURN: 	The length of the word.
