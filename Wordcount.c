@@ -91,8 +91,10 @@ void main(void)
 		exit();
 	}
 
-	/* Each loop processess one line. NOTE: If a line is longer than the input buffer,
-	   the program may produce invalid results. The very large buffer makes this 
+	/* Each loop processess one line. NOTE: 
+           Of a line is longer than the input buffer,
+	   the program may produce invalid results. 
+           The very large buffer makes this 
 	   unlikely .*/
 
 	while( fgets (linebbfr, sizeof(linebfr), infile) ) {
