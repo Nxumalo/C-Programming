@@ -5,12 +5,12 @@ char ans;
 
 printf("Hello, world.\n");
 printf("What's your name? ");
-printf("\"Hello,\" said Fraser\n");
+printf("\"Hello,\" \n");
 
 printf("%d + %d = %d\n",a,b,c);
 printf("You owe us $%6.2f\n",amt);
 
-printf("Your name is %s?\n",namee);
+printf("Your name is %s?\n",name);
 printf("The answer is %c\n",ans);
 
 printf(" a = %4d",a);
