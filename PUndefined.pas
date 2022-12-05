@@ -1,4 +1,4 @@
-if B = 0
+Toif B = 0
 	then Writeln('P is undefined')
 else begin
 	P := A div B;
