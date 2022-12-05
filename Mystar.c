@@ -5,11 +5,11 @@ main(){
 	star *mystar;
 	
 	mystar = (star *) malloc(sizeof(star));
-	strcpy(mystar -> name,"Fraser Nxumalo");
+	strcpy(mystar -> name,"Nxumalo");
 	
 	mystar -> class = 'K';
 	mystar -> subclass = 2;
-	mystar -> dec1 = 3.5167;
+	mystar -> dec1 = 3.5167;Mi
 	mystar -> RA = -9.633;
 	mystar -> dist = 0.303;
 	
