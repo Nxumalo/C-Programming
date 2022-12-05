@@ -23,5 +23,4 @@ case Ch of
 		
 	  Writeln('relax!')
 	  end
-	end;
-	 
+end;
