@@ -10,7 +10,7 @@ main(){
 	*(list+1) = 69;
 	*(list+2) = 1654;
 	
-	printf("liost of addresses: ");
+	printf("list of addresses: ");
 	for(i = 0; i<NUMINTS; i++)
 		printf("%4p ",(list+i));
 	
